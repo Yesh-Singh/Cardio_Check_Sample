@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact a Doctor | CardioCheck</title>
+  <style>
+    :root { color-scheme: dark; --ink: #fff; --muted: rgba(255,255,255,.66); --panel: rgba(22,16,28,.48); --line: rgba(255,255,255,.18); --accent: #d46cff; }
+    * { box-sizing: border-box; } body { margin: 0; min-height: 100vh; color: var(--ink); background: #09070b; font-family: Arial, sans-serif; }
+    body::before { content: ""; position: fixed; inset: 0; z-index: -2; background: linear-gradient(rgba(9,7,11,.3), rgba(9,7,11,.55)), url('Firefly%20Make%20an%20vidio%20of%20this%20heart%20pumping%20and%20shining%20195954.mp4'); }
+    .wrap { width: min(760px, calc(100% - 32px)); margin: auto; padding: 28px 0 60px; } nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 70px; } .brand, a { color: #fff; } .brand { font-weight: 700; letter-spacing: .15em; } nav a { text-decoration: none; font-size: 13px; }
+    .panel { padding: clamp(24px, 5vw, 48px); border: 1px solid var(--line); background: var(--panel); backdrop-filter: blur(12px); } .eyebrow { color: #e0a0ff; font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; } h1 { margin: 14px 0; font-size: clamp(2.5rem, 8vw, 5.5rem); line-height: .9; font-weight: 400; } p { color: var(--muted); line-height: 1.6; } form { display: grid; gap: 16px; margin-top: 30px; } label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; } input, textarea, select { width: 100%; margin-top: 7px; padding: 13px; border: 1px solid var(--line); background: rgba(255,255,255,.07); color: #fff; font: inherit; } textarea { min-height: 120px; resize: vertical; } button { padding: 14px 20px; border: 0; background: var(--accent); color: #180b20; font-weight: 700; cursor: pointer; } button:hover { background: #efb0ff; }
+  </style>
+</head>
+<body><main class="wrap"><nav><a class="brand" href="index.html?loading=1">CARDIOCHECK</a><a href="index.html?loading=1">Back home</a></nav><section class="panel"><div class="eyebrow">Professional support</div><h1>Contact a doctor.</h1><p>Prepare a message for a qualified healthcare professional. This demo form does not send medical records or provide emergency care.</p><form onsubmit="event.preventDefault(); alert('Your request is ready to send to a healthcare provider.');"><label>Name<input required type="text" placeholder="Your name"></label><label>Preferred contact<select><option>Email</option><option>Phone</option><option>Video consultation</option></select></label><label>Email<input required type="email" placeholder="you@example.com"></label><label>What would you like to discuss?<textarea required placeholder="Describe your questions or concerns"></textarea></label><button type="submit">Prepare request</button></form></section></main></body>
+</html>
