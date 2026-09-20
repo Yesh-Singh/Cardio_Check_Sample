@@ -1,3 +1,44 @@
 .venv/
+venv/
+env/
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.log
+*.sqlite3
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Local environment variables
+.env
+.env.*
+
+# Generated media / outputs
+cardio_graphs/
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# Build / packaging artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+htmlcov/
+
+# Local deployment / secret config
+render.yaml
